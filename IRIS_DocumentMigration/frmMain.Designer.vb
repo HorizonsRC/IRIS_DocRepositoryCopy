@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmMain
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
@@ -36,6 +36,7 @@ Partial Class frmMain
         Me.cmdPopulateFolderTable = New System.Windows.Forms.Button()
         Me.cmdMigrateFiles = New System.Windows.Forms.Button()
         Me.cmdIdentifyDuplicates = New System.Windows.Forms.Button()
+        Me.txtMigrationID = New System.Windows.Forms.TextBox()
         Me.img = New System.Windows.Forms.ImageList(Me.components)
         Me.cmdBrowseIRIS = New System.Windows.Forms.Button()
         Me.lblRootFolder = New System.Windows.Forms.Label()
@@ -52,7 +53,6 @@ Partial Class frmMain
         Me.lblWorkspaceDatabase = New System.Windows.Forms.Label()
         Me.cmbFileMigrationID = New System.Windows.Forms.ComboBox()
         Me.lblFileMigrationID = New System.Windows.Forms.Label()
-        Me.txtMigrationID = New System.Windows.Forms.TextBox()
         Me.lblMigrationID = New System.Windows.Forms.Label()
         Me.status.SuspendLayout()
         Me.SuspendLayout()
@@ -68,10 +68,11 @@ Partial Class frmMain
         Me.cmbWork_Database.Enabled = False
         Me.cmbWork_Database.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbWork_Database.FormattingEnabled = True
-        Me.cmbWork_Database.Location = New System.Drawing.Point(189, 142)
+        Me.cmbWork_Database.Location = New System.Drawing.Point(284, 218)
+        Me.cmbWork_Database.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmbWork_Database.MaxDropDownItems = 20
         Me.cmbWork_Database.Name = "cmbWork_Database"
-        Me.cmbWork_Database.Size = New System.Drawing.Size(168, 23)
+        Me.cmbWork_Database.Size = New System.Drawing.Size(250, 32)
         Me.cmbWork_Database.TabIndex = 47
         Me.cmbWork_Database.TabStop = False
         Me.ToolTips.SetToolTip(Me.cmbWork_Database, "The name of the database on the above server where the necessary workspace tables" &
@@ -80,9 +81,10 @@ Partial Class frmMain
         'txtIRIS_Server
         '
         Me.txtIRIS_Server.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIRIS_Server.Location = New System.Drawing.Point(189, 35)
+        Me.txtIRIS_Server.Location = New System.Drawing.Point(284, 54)
+        Me.txtIRIS_Server.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtIRIS_Server.Name = "txtIRIS_Server"
-        Me.txtIRIS_Server.Size = New System.Drawing.Size(168, 23)
+        Me.txtIRIS_Server.Size = New System.Drawing.Size(250, 31)
         Me.txtIRIS_Server.TabIndex = 1
         Me.ToolTips.SetToolTip(Me.txtIRIS_Server, "The name of the SQL server holding the IRIS database")
         '
@@ -93,10 +95,11 @@ Partial Class frmMain
         Me.cmbIRIS_Database.Enabled = False
         Me.cmbIRIS_Database.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbIRIS_Database.FormattingEnabled = True
-        Me.cmbIRIS_Database.Location = New System.Drawing.Point(189, 71)
+        Me.cmbIRIS_Database.Location = New System.Drawing.Point(284, 109)
+        Me.cmbIRIS_Database.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmbIRIS_Database.MaxDropDownItems = 20
         Me.cmbIRIS_Database.Name = "cmbIRIS_Database"
-        Me.cmbIRIS_Database.Size = New System.Drawing.Size(168, 23)
+        Me.cmbIRIS_Database.Size = New System.Drawing.Size(250, 32)
         Me.cmbIRIS_Database.TabIndex = 56
         Me.cmbIRIS_Database.TabStop = False
         Me.ToolTips.SetToolTip(Me.cmbIRIS_Database, "The name of the IRIS database holding the Contacts, Applications and Authorisatio" &
@@ -107,9 +110,10 @@ Partial Class frmMain
         Me.txtIRIS_Root.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtIRIS_Root.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIRIS_Root.Location = New System.Drawing.Point(189, 280)
+        Me.txtIRIS_Root.Location = New System.Drawing.Point(284, 431)
+        Me.txtIRIS_Root.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtIRIS_Root.Name = "txtIRIS_Root"
-        Me.txtIRIS_Root.Size = New System.Drawing.Size(621, 23)
+        Me.txtIRIS_Root.Size = New System.Drawing.Size(930, 31)
         Me.txtIRIS_Root.TabIndex = 3
         Me.ToolTips.SetToolTip(Me.txtIRIS_Root, "Root folder where new folders will be created and documents copied")
         '
@@ -118,9 +122,10 @@ Partial Class frmMain
         Me.txtSourceRoot.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtSourceRoot.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSourceRoot.Location = New System.Drawing.Point(189, 224)
+        Me.txtSourceRoot.Location = New System.Drawing.Point(284, 345)
+        Me.txtSourceRoot.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtSourceRoot.Name = "txtSourceRoot"
-        Me.txtSourceRoot.Size = New System.Drawing.Size(621, 23)
+        Me.txtSourceRoot.Size = New System.Drawing.Size(930, 31)
         Me.txtSourceRoot.TabIndex = 2
         Me.ToolTips.SetToolTip(Me.txtSourceRoot, "Root folder where existing R2D2 document files are stored")
         '
@@ -128,9 +133,10 @@ Partial Class frmMain
         '
         Me.btnCreateWorkspace.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnCreateWorkspace.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCreateWorkspace.Location = New System.Drawing.Point(188, 322)
+        Me.btnCreateWorkspace.Location = New System.Drawing.Point(282, 495)
+        Me.btnCreateWorkspace.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnCreateWorkspace.Name = "btnCreateWorkspace"
-        Me.btnCreateWorkspace.Size = New System.Drawing.Size(151, 44)
+        Me.btnCreateWorkspace.Size = New System.Drawing.Size(226, 68)
         Me.btnCreateWorkspace.TabIndex = 4
         Me.btnCreateWorkspace.Text = "1: Create Workspace"
         Me.ToolTips.SetToolTip(Me.btnCreateWorkspace, "Creates workspace tables in the nominated database (used for managing file transf" &
@@ -141,9 +147,10 @@ Partial Class frmMain
         '
         Me.cmdPopulateFolderTable.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmdPopulateFolderTable.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdPopulateFolderTable.Location = New System.Drawing.Point(345, 322)
+        Me.cmdPopulateFolderTable.Location = New System.Drawing.Point(518, 495)
+        Me.cmdPopulateFolderTable.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmdPopulateFolderTable.Name = "cmdPopulateFolderTable"
-        Me.cmdPopulateFolderTable.Size = New System.Drawing.Size(151, 44)
+        Me.cmdPopulateFolderTable.Size = New System.Drawing.Size(226, 68)
         Me.cmdPopulateFolderTable.TabIndex = 5
         Me.cmdPopulateFolderTable.Text = "2: Compile Mapping Data"
         Me.ToolTips.SetToolTip(Me.cmdPopulateFolderTable, "Recursively reads source folders and compiles file-lists to be used for the final" &
@@ -154,9 +161,10 @@ Partial Class frmMain
         '
         Me.cmdMigrateFiles.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmdMigrateFiles.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdMigrateFiles.Location = New System.Drawing.Point(659, 322)
+        Me.cmdMigrateFiles.Location = New System.Drawing.Point(988, 495)
+        Me.cmdMigrateFiles.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmdMigrateFiles.Name = "cmdMigrateFiles"
-        Me.cmdMigrateFiles.Size = New System.Drawing.Size(151, 44)
+        Me.cmdMigrateFiles.Size = New System.Drawing.Size(226, 68)
         Me.cmdMigrateFiles.TabIndex = 6
         Me.cmdMigrateFiles.Text = "4: Copy to New Location"
         Me.ToolTips.SetToolTip(Me.cmdMigrateFiles, "Uses the compiled mapping data to copy the files and log progress")
@@ -166,13 +174,25 @@ Partial Class frmMain
         '
         Me.cmdIdentifyDuplicates.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmdIdentifyDuplicates.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdIdentifyDuplicates.Location = New System.Drawing.Point(502, 322)
+        Me.cmdIdentifyDuplicates.Location = New System.Drawing.Point(753, 495)
+        Me.cmdIdentifyDuplicates.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmdIdentifyDuplicates.Name = "cmdIdentifyDuplicates"
-        Me.cmdIdentifyDuplicates.Size = New System.Drawing.Size(151, 44)
+        Me.cmdIdentifyDuplicates.Size = New System.Drawing.Size(226, 68)
         Me.cmdIdentifyDuplicates.TabIndex = 60
         Me.cmdIdentifyDuplicates.Text = "3: Identify Duplicates"
         Me.ToolTips.SetToolTip(Me.cmdIdentifyDuplicates, "Uses the compiled mapping data to copy the files and log progress")
         Me.cmdIdentifyDuplicates.UseVisualStyleBackColor = True
+        '
+        'txtMigrationID
+        '
+        Me.txtMigrationID.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtMigrationID.Location = New System.Drawing.Point(837, 94)
+        Me.txtMigrationID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtMigrationID.Name = "txtMigrationID"
+        Me.txtMigrationID.Size = New System.Drawing.Size(250, 31)
+        Me.txtMigrationID.TabIndex = 63
+        Me.ToolTips.SetToolTip(Me.txtMigrationID, "An ID number for this migration (used to separate multiple migrations for the sam" &
+        "e File Migration Code)")
         '
         'img
         '
@@ -184,9 +204,10 @@ Partial Class frmMain
         '
         Me.cmdBrowseIRIS.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmdBrowseIRIS.Font = New System.Drawing.Font("Tahoma", 8.25!)
-        Me.cmdBrowseIRIS.Location = New System.Drawing.Point(816, 280)
+        Me.cmdBrowseIRIS.Location = New System.Drawing.Point(1224, 431)
+        Me.cmdBrowseIRIS.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmdBrowseIRIS.Name = "cmdBrowseIRIS"
-        Me.cmdBrowseIRIS.Size = New System.Drawing.Size(27, 21)
+        Me.cmdBrowseIRIS.Size = New System.Drawing.Size(40, 32)
         Me.cmdBrowseIRIS.TabIndex = 40
         Me.cmdBrowseIRIS.TabStop = False
         Me.cmdBrowseIRIS.Text = "..."
@@ -196,9 +217,10 @@ Partial Class frmMain
         '
         Me.lblRootFolder.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRootFolder.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblRootFolder.Location = New System.Drawing.Point(24, 281)
+        Me.lblRootFolder.Location = New System.Drawing.Point(36, 432)
+        Me.lblRootFolder.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblRootFolder.Name = "lblRootFolder"
-        Me.lblRootFolder.Size = New System.Drawing.Size(159, 18)
+        Me.lblRootFolder.Size = New System.Drawing.Size(238, 28)
         Me.lblRootFolder.TabIndex = 39
         Me.lblRootFolder.Text = "DOCUMENTS ROOT FOLDER"
         Me.lblRootFolder.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -207,9 +229,10 @@ Partial Class frmMain
         '
         Me.cmdBrowseR2D2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmdBrowseR2D2.Font = New System.Drawing.Font("Tahoma", 8.25!)
-        Me.cmdBrowseR2D2.Location = New System.Drawing.Point(816, 224)
+        Me.cmdBrowseR2D2.Location = New System.Drawing.Point(1224, 345)
+        Me.cmdBrowseR2D2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmdBrowseR2D2.Name = "cmdBrowseR2D2"
-        Me.cmdBrowseR2D2.Size = New System.Drawing.Size(27, 21)
+        Me.cmdBrowseR2D2.Size = New System.Drawing.Size(40, 32)
         Me.cmdBrowseR2D2.TabIndex = 37
         Me.cmdBrowseR2D2.TabStop = False
         Me.cmdBrowseR2D2.Text = "..."
@@ -219,9 +242,10 @@ Partial Class frmMain
         '
         Me.lblSourceRootFolder.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSourceRootFolder.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblSourceRootFolder.Location = New System.Drawing.Point(23, 225)
+        Me.lblSourceRootFolder.Location = New System.Drawing.Point(34, 346)
+        Me.lblSourceRootFolder.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSourceRootFolder.Name = "lblSourceRootFolder"
-        Me.lblSourceRootFolder.Size = New System.Drawing.Size(159, 18)
+        Me.lblSourceRootFolder.Size = New System.Drawing.Size(238, 28)
         Me.lblSourceRootFolder.TabIndex = 36
         Me.lblSourceRootFolder.Text = "DOCUMENTS ROOT FOLDER"
         Me.lblSourceRootFolder.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -229,11 +253,13 @@ Partial Class frmMain
         'status
         '
         Me.status.GripMargin = New System.Windows.Forms.Padding(0)
+        Me.status.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.status.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.lblStatus})
         Me.status.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
-        Me.status.Location = New System.Drawing.Point(0, 390)
+        Me.status.Location = New System.Drawing.Point(0, 606)
         Me.status.Name = "status"
-        Me.status.Size = New System.Drawing.Size(854, 22)
+        Me.status.Padding = New System.Windows.Forms.Padding(2, 0, 21, 0)
+        Me.status.Size = New System.Drawing.Size(1281, 28)
         Me.status.SizingGrip = False
         Me.status.TabIndex = 35
         Me.status.Text = "Status"
@@ -244,7 +270,7 @@ Partial Class frmMain
         Me.lblStatus.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
         Me.lblStatus.Margin = New System.Windows.Forms.Padding(0, 2, 0, 1)
         Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(39, 19)
+        Me.lblStatus.Size = New System.Drawing.Size(60, 25)
         Me.lblStatus.Spring = True
         Me.lblStatus.Text = "Ready"
         Me.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -254,9 +280,10 @@ Partial Class frmMain
         Me.lblHeader3.AutoSize = True
         Me.lblHeader3.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHeader3.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.lblHeader3.Location = New System.Drawing.Point(13, 15)
+        Me.lblHeader3.Location = New System.Drawing.Point(20, 23)
+        Me.lblHeader3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblHeader3.Name = "lblHeader3"
-        Me.lblHeader3.Size = New System.Drawing.Size(103, 14)
+        Me.lblHeader3.Size = New System.Drawing.Size(158, 22)
         Me.lblHeader3.TabIndex = 58
         Me.lblHeader3.Text = "IRIS Database"
         '
@@ -264,9 +291,10 @@ Partial Class frmMain
         '
         Me.lblIRIS_Database.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblIRIS_Database.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblIRIS_Database.Location = New System.Drawing.Point(23, 73)
+        Me.lblIRIS_Database.Location = New System.Drawing.Point(34, 112)
+        Me.lblIRIS_Database.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblIRIS_Database.Name = "lblIRIS_Database"
-        Me.lblIRIS_Database.Size = New System.Drawing.Size(159, 18)
+        Me.lblIRIS_Database.Size = New System.Drawing.Size(238, 28)
         Me.lblIRIS_Database.TabIndex = 57
         Me.lblIRIS_Database.Text = "DATABASE"
         Me.lblIRIS_Database.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -275,9 +303,10 @@ Partial Class frmMain
         '
         Me.lblIRIS_Server.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblIRIS_Server.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblIRIS_Server.Location = New System.Drawing.Point(23, 37)
+        Me.lblIRIS_Server.Location = New System.Drawing.Point(34, 57)
+        Me.lblIRIS_Server.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblIRIS_Server.Name = "lblIRIS_Server"
-        Me.lblIRIS_Server.Size = New System.Drawing.Size(159, 18)
+        Me.lblIRIS_Server.Size = New System.Drawing.Size(238, 28)
         Me.lblIRIS_Server.TabIndex = 54
         Me.lblIRIS_Server.Text = "SERVER"
         Me.lblIRIS_Server.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -287,9 +316,10 @@ Partial Class frmMain
         Me.lblHeader2.AutoSize = True
         Me.lblHeader2.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHeader2.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.lblHeader2.Location = New System.Drawing.Point(13, 116)
+        Me.lblHeader2.Location = New System.Drawing.Point(20, 178)
+        Me.lblHeader2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblHeader2.Name = "lblHeader2"
-        Me.lblHeader2.Size = New System.Drawing.Size(147, 14)
+        Me.lblHeader2.Size = New System.Drawing.Size(223, 22)
         Me.lblHeader2.TabIndex = 51
         Me.lblHeader2.Text = "Workspace Database"
         '
@@ -298,9 +328,10 @@ Partial Class frmMain
         Me.lblHeader1.AutoSize = True
         Me.lblHeader1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHeader1.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.lblHeader1.Location = New System.Drawing.Point(13, 256)
+        Me.lblHeader1.Location = New System.Drawing.Point(20, 394)
+        Me.lblHeader1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblHeader1.Name = "lblHeader1"
-        Me.lblHeader1.Size = New System.Drawing.Size(130, 14)
+        Me.lblHeader1.Size = New System.Drawing.Size(199, 22)
         Me.lblHeader1.TabIndex = 50
         Me.lblHeader1.Text = "Destination (IRIS)"
         '
@@ -309,9 +340,10 @@ Partial Class frmMain
         Me.lblHeader0.AutoSize = True
         Me.lblHeader0.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblHeader0.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.lblHeader0.Location = New System.Drawing.Point(13, 197)
+        Me.lblHeader0.Location = New System.Drawing.Point(20, 303)
+        Me.lblHeader0.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblHeader0.Name = "lblHeader0"
-        Me.lblHeader0.Size = New System.Drawing.Size(114, 14)
+        Me.lblHeader0.Size = New System.Drawing.Size(170, 22)
         Me.lblHeader0.TabIndex = 49
         Me.lblHeader0.Text = "Source (R2-D2)"
         '
@@ -319,9 +351,10 @@ Partial Class frmMain
         '
         Me.lblWorkspaceDatabase.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblWorkspaceDatabase.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblWorkspaceDatabase.Location = New System.Drawing.Point(23, 144)
+        Me.lblWorkspaceDatabase.Location = New System.Drawing.Point(34, 222)
+        Me.lblWorkspaceDatabase.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblWorkspaceDatabase.Name = "lblWorkspaceDatabase"
-        Me.lblWorkspaceDatabase.Size = New System.Drawing.Size(159, 18)
+        Me.lblWorkspaceDatabase.Size = New System.Drawing.Size(238, 28)
         Me.lblWorkspaceDatabase.TabIndex = 48
         Me.lblWorkspaceDatabase.Text = "DATABASE"
         Me.lblWorkspaceDatabase.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -331,9 +364,10 @@ Partial Class frmMain
         Me.cmbFileMigrationID.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbFileMigrationID.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbFileMigrationID.FormattingEnabled = True
-        Me.cmbFileMigrationID.Location = New System.Drawing.Point(558, 37)
+        Me.cmbFileMigrationID.Location = New System.Drawing.Point(837, 52)
+        Me.cmbFileMigrationID.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmbFileMigrationID.Name = "cmbFileMigrationID"
-        Me.cmbFileMigrationID.Size = New System.Drawing.Size(252, 23)
+        Me.cmbFileMigrationID.Size = New System.Drawing.Size(376, 32)
         Me.cmbFileMigrationID.TabIndex = 61
         '
         'lblFileMigrationID
@@ -341,39 +375,32 @@ Partial Class frmMain
         Me.lblFileMigrationID.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblFileMigrationID.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFileMigrationID.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblFileMigrationID.Location = New System.Drawing.Point(408, 38)
+        Me.lblFileMigrationID.Location = New System.Drawing.Point(612, 58)
+        Me.lblFileMigrationID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblFileMigrationID.Name = "lblFileMigrationID"
-        Me.lblFileMigrationID.Size = New System.Drawing.Size(144, 18)
+        Me.lblFileMigrationID.Size = New System.Drawing.Size(216, 28)
         Me.lblFileMigrationID.TabIndex = 62
         Me.lblFileMigrationID.Text = "FILE MIGRATION ID"
         Me.lblFileMigrationID.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'txtMigrationID
-        '
-        Me.txtMigrationID.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMigrationID.Location = New System.Drawing.Point(558, 66)
-        Me.txtMigrationID.Name = "txtMigrationID"
-        Me.txtMigrationID.Size = New System.Drawing.Size(168, 23)
-        Me.txtMigrationID.TabIndex = 63
-        Me.ToolTips.SetToolTip(Me.txtMigrationID, "The name of the SQL server holding the IRIS database")
         '
         'lblMigrationID
         '
         Me.lblMigrationID.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMigrationID.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblMigrationID.Location = New System.Drawing.Point(392, 68)
+        Me.lblMigrationID.Location = New System.Drawing.Point(588, 95)
+        Me.lblMigrationID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMigrationID.Name = "lblMigrationID"
-        Me.lblMigrationID.Size = New System.Drawing.Size(159, 18)
+        Me.lblMigrationID.Size = New System.Drawing.Size(238, 28)
         Me.lblMigrationID.TabIndex = 64
         Me.lblMigrationID.Text = "MIGRATION ID"
         Me.lblMigrationID.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Window
-        Me.ClientSize = New System.Drawing.Size(854, 412)
+        Me.ClientSize = New System.Drawing.Size(1281, 634)
         Me.Controls.Add(Me.txtMigrationID)
         Me.Controls.Add(Me.lblMigrationID)
         Me.Controls.Add(Me.lblFileMigrationID)
@@ -401,6 +428,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.lblHeader0)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmMain"
         Me.Text = "IRIS Consents Document Migration"
         Me.status.ResumeLayout(False)
