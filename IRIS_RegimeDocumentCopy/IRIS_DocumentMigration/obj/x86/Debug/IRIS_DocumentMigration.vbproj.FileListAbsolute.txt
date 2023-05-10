@@ -64,3 +64,16 @@ D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_DocumentMigration\obj\x86\De
 D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.vbproj.CoreCompileInputs.cache
 D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.exe
 D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.pdb
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\bin\Debug\IRIS_DocumentMigration.exe.config
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\bin\Debug\IRIS_DocumentMigration.exe
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\bin\Debug\IRIS_DocumentMigration.pdb
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.vbproj.AssemblyReference.cache
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.vbproj.ResolveComReference.cache
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\DocumentMigration.frmMain.resources
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\DocumentMigration.Resources.resources
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.vbproj.GenerateResource.cache
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.exe.licenses
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.vbproj.CoreCompileInputs.cache
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.exe
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.pdb

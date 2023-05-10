@@ -202,6 +202,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="folder_gear.ico" />
+    <Content Include="Resources\delete2.png" />
     <Content Include="Resources\folder_up.png" />
     <None Include="Resources\Number 3.png" />
     <None Include="Resources\Number 2.png" />
