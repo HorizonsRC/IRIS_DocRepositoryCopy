@@ -311,19 +311,17 @@ Module Database
         Return msg
     End Function
 
-    Public Function VerifyMigrationID(ByRef wks As Workspace) As Boolean
+    Public Function VerifyMigrationID(ByRef wks As Workspace, ByVal MigrationID As Integer) As Boolean
         Dim RetVal As Boolean = False
 
-        If My.Settings.FileMigrationID > 0 Then  'Check if exists in db
-            If wks.ExecuteScalarMigration($"SELECT COUNT(*) AS ItemCount FROM {wks.MigrationDatabase}.HRC.DocumentMigrationProcess WHERE FileMigrationID = '" & My.Settings.FileMigrationID & "'") = 0 Then
-                My.Settings.FileMigrationID = wks.ExecuteScalarMigration($"SELECT TOP 1 FileMigrationID FROM {wks.MigrationDatabase}.HRC.DocumentMigrationProcess")
-                My.Settings.FileMigrationID = wks.ExecuteScalarMigration($"SELECT TOP 1 MigrationID FROM {wks.MigrationDatabase}.HRC.DocumentMigrationProcess WHERE FileMigrationID = '" & My.Settings.FileMigrationID & "'")
-                My.Settings.SourceRootFolder = wks.ExecuteScalarMigration($"SELECT SourceFolder FROM {wks.MigrationDatabase}.HRC.DocumentMigrationProcess WHERE FileMigrationID = '" & My.Settings.FileMigrationID & "'")
-                My.Settings.IRIS_RootFolder = wks.ExecuteScalarMigration($"SELECT TargetFolder FROM {wks.MigrationDatabase}.HRC.DocumentMigrationProcess WHERE FileMigrationID = '" & My.Settings.FileMigrationID & "'")
+        If MigrationID > 0 Then  'Check if exists in db
+            If wks.ExecuteScalarMigration($"SELECT COUNT(*) AS ItemCount FROM {wks.MigrationDatabase}.HRC.DocumentMigrationProcess WHERE MigrationID = {MigrationID}") = 0 Then
+                My.Settings.MigrationID = wks.ExecuteScalarMigration($"SELECT TOP 1 MigrationID FROM {wks.MigrationDatabase}.hrc.DocumentMigrationProcess ORDER BY MigrationID DESC")
+                My.Settings.IRIS_RootFolder = wks.ExecuteScalarMigration($"SELECT TargetFolder FROM {wks.MigrationDatabase}.HRC.DocumentMigrationProcess WHERE MigrationID = {My.Settings.MigrationID}")
                 RetVal = True
             Else
-                If IO.Directory.Exists(My.Settings.SourceRootFolder) AndAlso IO.Directory.Exists(My.Settings.IRIS_RootFolder) Then
-                    wks.ExecuteNonQueryMigration($"UPDATE {wks.MigrationDatabase}.HRC.DocumentMigrationProcess SET SourceFolder = '" & StripTrailingSlash(My.Settings.SourceRootFolder) & "', TargetFolder = '" & StripTrailingSlash(My.Settings.IRIS_RootFolder) & "' WHERE FileMigrationID = '" & My.Settings.FileMigrationID & "'")
+                If IO.Directory.Exists(My.Settings.IRIS_RootFolder) Then
+                    wks.ExecuteNonQueryMigration($"UPDATE {wks.MigrationDatabase}.HRC.DocumentMigrationProcess SET TargetFolder = '{StripTrailingSlash(My.Settings.IRIS_RootFolder)}' WHERE MigrationID = {My.Settings.MigrationID}")
                     RetVal = True
                 Else
                     MsgBox("Can't find one of the migration folders. Please verify the selected folders exist", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "Missing Folder")
@@ -342,10 +340,10 @@ Module Database
         Dim wks As New Workspace(My.Settings.IRIS_Server)
         Dim RetVal As Task = Nothing
 
-        If wks.ExecuteScalarMigration($"SELECT COUNT(*) AS ItemCount FROM HRC.DocumentMigrationProcessTask WHERE MigrationID = {My.Settings.FileMigrationID} AND TaskID = {TaskID.ToString}") > 0 Then
+        If wks.ExecuteScalarMigration($"SELECT COUNT(*) AS ItemCount FROM HRC.DocumentMigrationProcessTask WHERE MigrationID = {My.Settings.MigrationID} AND TaskID = {TaskID.ToString}") > 0 Then
             RetVal = New Task
             RetVal.TaskID = TaskID
-            RetVal.ErrorText = wks.ExecuteScalarMigration($"SELECT ISNULL(ErrorText,'') FROM HRC.DocumentMigrationProcessTask WHERE MigrationID = {My.Settings.FileMigrationID} AND TaskID = {TaskID.ToString}")
+            RetVal.ErrorText = wks.ExecuteScalarMigration($"SELECT ISNULL(ErrorText,'') FROM HRC.DocumentMigrationProcessTask WHERE MigrationID = {My.Settings.MigrationID} AND TaskID = {TaskID.ToString}")
         End If
         wks.Dispose()
 

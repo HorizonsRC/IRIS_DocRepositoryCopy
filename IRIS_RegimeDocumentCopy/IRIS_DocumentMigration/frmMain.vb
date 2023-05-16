@@ -49,7 +49,7 @@ Public Class frmMain
 
         If My.Settings.IRIS_Server.Length > 0 Then
             EnsureTables(wks)
-            'VerifyMigrationID(wks)
+            VerifyMigrationID(wks, My.Settings.MigrationID)
         End If
 
         LoadMigrationCombo()
@@ -66,6 +66,7 @@ Public Class frmMain
         If cmbMigrationID.SelectedIndex() > 0 Then
             My.Settings.MigrationID = cmbMigrationID.SelectedItem("ID")
             LoadSourceFolderList()
+            UpdateButtons()
         End If
     End Sub
     Private Sub cmbMigrationID_KeyUp(sender As Object, e As KeyEventArgs) Handles cmbMigrationID.KeyUp
@@ -82,6 +83,8 @@ Public Class frmMain
         If e.KeyCode = Keys.Enter Then
             My.Settings.IRIS_Server = txtIRIS_Server.Text
             ValidateServer()
+            LoadMigrationCombo()
+            LoadSourceFolderList()
             UpdateButtons()
         End If
     End Sub
@@ -368,7 +371,7 @@ Public Class frmMain
         Dim msg As String = ""
         msg = ValidateServer()
         If msg.Length = 0 Then msg = EnsureTables(wks)
-        VerifyMigrationID(wks)
+        VerifyMigrationID(wks, My.Settings.MigrationID)
         ResetTasksFrom(wks, 1)
         UpdateTask(wks, 1, msg)
         UpdateButtons()

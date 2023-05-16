@@ -57,18 +57,6 @@ Namespace My
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public Property SourceRootFolder() As String
-            Get
-                Return CType(Me("SourceRootFolder"),String)
-            End Get
-            Set
-                Me("SourceRootFolder") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
         Public Property IRIS_RootFolder() As String
             Get
                 Return CType(Me("IRIS_RootFolder"),String)
@@ -87,17 +75,6 @@ Namespace My
             End Get
             Set
                 Me("IRIS_Server") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
-        Public Property FileMigrationID() As Integer
-            Get
-                Return CType(Me("FileMigrationID"),Integer)
-            End Get
-            Set
-                Me("FileMigrationID") = value
             End Set
         End Property
         
