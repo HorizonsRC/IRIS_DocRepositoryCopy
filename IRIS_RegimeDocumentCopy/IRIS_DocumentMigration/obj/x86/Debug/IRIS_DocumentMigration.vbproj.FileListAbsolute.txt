@@ -77,3 +77,4 @@ D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_Docu
 D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.vbproj.CoreCompileInputs.cache
 D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.exe
 D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.pdb
+D:\Documents\GithubLive\IRIS_DocRepositoryCopy\IRIS_RegimeDocumentCopy\IRIS_DocumentMigration\obj\x86\Debug\IRIS_DocumentMigration.vbproj.SuggestedBindingRedirects.cache

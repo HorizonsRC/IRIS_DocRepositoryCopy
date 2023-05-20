@@ -99,7 +99,7 @@ Public Class frmMain
         If Len(myFolder) > 0 AndAlso IO.Directory.Exists(myFolder) Then
             txtIRIS_Root.Text = myFolder
             My.Settings.IRIS_RootFolder = myFolder
-            wks.ExecuteNonQueryMigration($"MERGE {wks.MigrationDatabase}.hrc.DocumentMigrationProcess TGT USING (SELECT {My.Settings.MigrationID} MigrationID,'' SourceFolder,{myFolder} TargetFolder) SRC ON FLD.MigrationID = TGT.MigrationID WHEN MATCHED THEN UPDATE SET TargetFolder = SRC.TargetFolder WHEN NOT MATCHED BY TARGET THEN INSERT(MigrationID,SourceFolder,TargetFolder) VALUES(SRC.MigrationID,SRC.SourceFolder,SRC.TargetFolder);")
+            wks.ExecuteNonQueryMigration($"MERGE {wks.MigrationDatabase}.hrc.DocumentMigrationProcess TGT USING (SELECT {My.Settings.MigrationID} MigrationID,'' SourceFolder,'{myFolder}' TargetFolder) SRC ON SRC.MigrationID = TGT.MigrationID WHEN MATCHED THEN UPDATE SET TargetFolder = SRC.TargetFolder WHEN NOT MATCHED BY TARGET THEN INSERT(MigrationID,SourceFolder,TargetFolder) VALUES(SRC.MigrationID,SRC.SourceFolder,SRC.TargetFolder);")
         End If
     End Sub
 #End Region
