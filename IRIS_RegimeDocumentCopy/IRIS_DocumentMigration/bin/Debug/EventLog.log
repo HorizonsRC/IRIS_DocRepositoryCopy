@@ -4692,3 +4692,60 @@
 ──────────────────────────────────────────────────
 13:11:56		IRIS_DocumentMigration.exe application started
 13:13:17		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+02 Jun 2023
+──────────────────────────────────────────────────
+01:11:45		IRIS_DocumentMigration.exe application started
+01:18:21		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+31 Aug 2023
+──────────────────────────────────────────────────
+12:25:00		IRIS_DocumentMigration.exe application started
+16:48:05		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+20 Sep 2023
+──────────────────────────────────────────────────
+00:16:47		IRIS_DocumentMigration.exe application started
+00:17:00		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+27 Nov 2023
+──────────────────────────────────────────────────
+11:14:06		IRIS_DocumentMigration.exe application started
+11:14:21		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+25 Feb 2024
+──────────────────────────────────────────────────
+00:09:27		IRIS_DocumentMigration.exe application started
+00:26:04		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4142.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4142.JPG'. The error was Illegal characters in path.
+00:26:04		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4143.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4143.JPG'. The error was Illegal characters in path.
+00:26:04		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4144.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4144.JPG'. The error was Illegal characters in path.
+00:26:04		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4145.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4145.JPG'. The error was Illegal characters in path.
+00:26:04		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4146.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4146.JPG'. The error was Illegal characters in path.
+00:26:05		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4147.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4147.JPG'. The error was Illegal characters in path.
+00:26:05		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4148.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4148.JPG'. The error was Illegal characters in path.
+00:26:05		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4149.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4149.JPG'. The error was Illegal characters in path.
+00:26:05		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4150.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4150.JPG'. The error was Illegal characters in path.
+00:26:05		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4151.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4151.JPG'. The error was Illegal characters in path.
+00:26:05		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4152.JPG' to '\\file\AppData\IRIS_Testing\IRISDEV\Regimes\Regimes\RGM-1994502626\Legacy Monitoring Activities\DSCF4152.JPG'. The error was Illegal characters in path.
+08:29:34		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+25 Feb 2024
+──────────────────────────────────────────────────
+09:27:34		IRIS_DocumentMigration.exe application started
+09:38:49		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+25 Feb 2024
+──────────────────────────────────────────────────
+09:38:52		IRIS_DocumentMigration.exe application started
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4142.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4142.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4143.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4143.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4144.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4144.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4145.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4145.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4146.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4146.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4147.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4147.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4148.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4148.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4149.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4149.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4150.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4150.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4151.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4151.JPG'. The error was Illegal characters in path.
+09:45:35		Error while copying file '\\file\herman\E\RM\04\00\4234\Photos\?Inspection photos follow up 20110527\DSCF4152.JPG' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-1994502640\Legacy Monitoring Activities\DSCF4152.JPG'. The error was Illegal characters in path.
+09:55:24		IRIS_DocumentMigration.exe application exited
