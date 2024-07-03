@@ -438,9 +438,9 @@ Public Class frmMain
                             ON          ATO.BusinessID = MAP.AuthorisationIRISID
                             LEFT JOIN   OtherIdentifier                             OID
                             ON          OID.IRISObjectID = ATO.ID
-                            WHERE       OID.IsDeleted    = 0
+                            AND         OID.IsDeleted    = 0
                             AND         OID.IdentifierContextID = 427
-                            AND         MAP.MigrationID = 5)                        FLD
+                            WHERE       MAP.MigrationID = {My.Settings.MigrationID})                        FLD
                             ORDER BY    FolderName
                             FOR XML     PATH('')),1,3,'')+''''                      FolderList"
 

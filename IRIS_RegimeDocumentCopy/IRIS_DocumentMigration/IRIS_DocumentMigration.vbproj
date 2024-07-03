@@ -17,7 +17,7 @@
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>E:\Dropbox\Code and Database\Visual Studio Projects\IRIS_DocRepositoryCopy\Publish\</PublishUrl>
+    <PublishUrl>E:\IRIS_DocumentCopier\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>

@@ -6,10 +6,10 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="IRIS_Server" Type="System.String" Scope="User">
-      <Value Profile="(Default)">irisdevdb</Value>
+      <Value Profile="(Default)">SQL3</Value>
     </Setting>
     <Setting Name="MigrationID" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5</Value>
+      <Value Profile="(Default)">6</Value>
     </Setting>
   </Settings>
 </SettingsFile>

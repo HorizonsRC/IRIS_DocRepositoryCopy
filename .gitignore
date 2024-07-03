@@ -1,2 +1,7 @@
 
 IRIS_RegimeDocumentCopy/.vs/IRIS_DocumentCopier/v17/.suo
+*.log
+*.cache
+*.pdb
+*.exe
+/IRIS_RegimeDocumentCopy/IRIS_DocumentMigration/bin
