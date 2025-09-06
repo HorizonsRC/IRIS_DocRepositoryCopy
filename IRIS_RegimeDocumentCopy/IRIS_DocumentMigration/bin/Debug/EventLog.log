@@ -15483,3 +15483,21 @@
 23:24:31		Error while copying file '\\file\herman\E\RM\04\00\106835\Compliance Correspondence\20160818 Drysdale 46768 ATH-2014015091.00 NMP Update 6.2.2 2015-2016.docx' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-2009200668\Legacy Monitoring Activities'. The error was Conversion from type 'DBNull' to type 'String' is not valid.
 23:24:31		Error while copying file '\\file\herman\E\RM\04\00\106836\Compliance Correspondence\20160818 Drysdale 46768 ATH-2014015091.00 NMP Update 6.2.2 2015-2016.docx' to '\\file\herman\D\IS\01\01\IRISLIVE\Regimes\RGM-2009200668\Legacy Monitoring Activities'. The error was Conversion from type 'DBNull' to type 'String' is not valid.
 23:34:54		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+05 May 2025
+──────────────────────────────────────────────────
+15:17:29		IRIS_DocumentMigration.exe application started
+══════════════════════════════════════════════════
+05 May 2025
+──────────────────────────────────────────────────
+15:22:40		IRIS_DocumentMigration.exe application started
+══════════════════════════════════════════════════
+05 May 2025
+──────────────────────────────────────────────────
+15:38:23		IRIS_DocumentMigration.exe application started
+15:38:45		IRIS_DocumentMigration.exe application exited
+══════════════════════════════════════════════════
+05 May 2025
+──────────────────────────────────────────────────
+15:38:49		IRIS_DocumentMigration.exe application started
+15:39:13		IRIS_DocumentMigration.exe application exited

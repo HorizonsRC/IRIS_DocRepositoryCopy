@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA246E2-5B95-4D54-9DA1-14BAD9C423AF}|IRIS_SLUS_DocumentCopy.vbproj|d:\\documents\\githublive\\iris_docrepositorycopy\\iris_slus_documentcopy\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{EAA246E2-5B95-4D54-9DA1-14BAD9C423AF}|IRIS_SLUS_DocumentCopy.vbproj|solutionrelative:program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA246E2-5B95-4D54-9DA1-14BAD9C423AF}|IRIS_SLUS_DocumentCopy.vbproj|d:\\documents\\githublive\\iris_docrepositorycopy\\iris_slus_documentcopy\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EAA246E2-5B95-4D54-9DA1-14BAD9C423AF}|IRIS_SLUS_DocumentCopy.vbproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\GithubLive\\IRIS-Support-Solutions\\ViewRadialSearchMap\\ViewRadialSearchMap\\ViewRadialSearchMap.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA246E2-5B95-4D54-9DA1-14BAD9C423AF}|IRIS_SLUS_DocumentCopy.vbproj|d:\\documents\\githublive\\iris_docrepositorycopy\\iris_slus_documentcopy\\iris_slus_documentcopy.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EAA246E2-5B95-4D54-9DA1-14BAD9C423AF}|IRIS_SLUS_DocumentCopy.vbproj|solutionrelative:iris_slus_documentcopy.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewRadialSearchMap.vb",
+              "DocumentMoniker": "D:\\Documents\\GithubLive\\IRIS-Support-Solutions\\ViewRadialSearchMap\\ViewRadialSearchMap\\ViewRadialSearchMap.vb",
+              "RelativeDocumentMoniker": "..\\..\\IRIS-Support-Solutions\\ViewRadialSearchMap\\ViewRadialSearchMap\\ViewRadialSearchMap.vb",
+              "ToolTip": "D:\\Documents\\GithubLive\\IRIS-Support-Solutions\\ViewRadialSearchMap\\ViewRadialSearchMap\\ViewRadialSearchMap.vb",
+              "RelativeToolTip": "..\\..\\IRIS-Support-Solutions\\ViewRadialSearchMap\\ViewRadialSearchMap\\ViewRadialSearchMap.vb",
+              "ViewState": "AgIAAO4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-08T19:45:04.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.config",
+              "DocumentMoniker": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\app.config",
+              "RelativeDocumentMoniker": "app.config",
+              "ToolTip": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\app.config",
+              "RelativeToolTip": "app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-05T20:21:55.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRIS_SLUS_DocumentCopy",
+              "DocumentMoniker": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\IRIS_SLUS_DocumentCopy.vbproj",
+              "RelativeDocumentMoniker": "IRIS_SLUS_DocumentCopy.vbproj",
+              "ToolTip": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\IRIS_SLUS_DocumentCopy.vbproj",
+              "RelativeToolTip": "IRIS_SLUS_DocumentCopy.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2025-05-05T04:08:53.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.vb",
+              "DocumentMoniker": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\Program.vb",
+              "RelativeDocumentMoniker": "Program.vb",
+              "ToolTip": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\Program.vb",
+              "RelativeToolTip": "Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-05T04:02:19.095Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

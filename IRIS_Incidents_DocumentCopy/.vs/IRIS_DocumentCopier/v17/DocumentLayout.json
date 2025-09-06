@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39F9E76B-D26B-4712-B2C8-64853193E8F3}|IRIS_DocumentMigration\\IRIS_DocumentMigration.vbproj|d:\\documents\\githublive\\iris_docrepositorycopy\\iris_slus_documentcopy\\iris_documentmigration\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{39F9E76B-D26B-4712-B2C8-64853193E8F3}|IRIS_DocumentMigration\\IRIS_DocumentMigration.vbproj|solutionrelative:iris_documentmigration\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.vb",
+              "DocumentMoniker": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\IRIS_DocumentMigration\\frmMain.vb",
+              "RelativeDocumentMoniker": "IRIS_DocumentMigration\\frmMain.vb",
+              "ToolTip": "D:\\Documents\\GithubLive\\IRIS_DocRepositoryCopy\\IRIS_SLUS_DocumentCopy\\IRIS_DocumentMigration\\frmMain.vb",
+              "RelativeToolTip": "IRIS_DocumentMigration\\frmMain.vb",
+              "ViewState": "AgIAAMQAAAAAAAAAAADwv+wAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-05T03:44:35.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
